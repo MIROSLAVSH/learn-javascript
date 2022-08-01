@@ -6,6 +6,6 @@ if (sum < 21){
     console.log('do you want to draw a new card?')
 } else if(sum === 21){
     console.log('blackjack')
-} else if(sum > 21){
+} else {
     console.log('looose')
 }

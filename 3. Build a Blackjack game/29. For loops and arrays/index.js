@@ -13,4 +13,6 @@ let messages = [
 // console.log(messages[3])
 
 
-
+for(let i = 0; i < messages.length; i++){
+    console.log(messages[i])
+}
