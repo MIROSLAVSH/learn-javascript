@@ -8,7 +8,7 @@ let myGreeting = greeting + name
 
 // let totalPoints = points + bonusPoints
 
-console.log(4 + 5) 
-console.log("2" + "4")
-console.log("5" + 1)
-console.log(100 + "100")
+console.log(typeof(4 + 5)) // 9
+console.log(typeof("2" + "4")) //'24'
+console.log(typeof("5" + 1)) // '51'
+console.log(typeof(100 + "100")) //'100100'
