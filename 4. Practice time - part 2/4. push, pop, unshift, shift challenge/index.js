@@ -5,3 +5,12 @@ let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
 
 // Use push() & pop() and their counterparts unshift() & shift()
 // Google how to use unshift() and shift()
+
+largeCountries.shift()
+largeCountries.unshift("China")
+// console.log(largeCountries)
+
+largeCountries.pop()
+largeCountries.push("Pakistan")
+
+console.log(largeCountries)

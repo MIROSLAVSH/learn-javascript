@@ -3,6 +3,13 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
+// localStorage.setItem("myName", "Miroslav")
+
+let name1 = localStorage.getItem("myName")
+console.log(name1)
+
+// localStorage.clear()
+
 // 1. Save a key-value pair in localStorage
 // 2. Refresh the page. Get the value and log it to the console
 // 3. Clear localStorage

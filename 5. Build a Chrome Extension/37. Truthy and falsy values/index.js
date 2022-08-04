@@ -16,13 +16,17 @@
 // undefined -> how JavaScript signalizes emptiness
 // NaN
 
-let currentViewers = null
+// let currentViewers = null
 
-currentViewers = ["jane", "nick"]
+// currentViewers = ["jane", "nick"]
 
-currentViewers = null
+// currentViewers = null
 
-if (currentViewers) {
-    // do something , e.g. notify the live streamers
-    console.log("we have viewers")
-}
+// if (currentViewers) {
+//     // do something , e.g. notify the live streamers
+//     console.log("we have viewers")
+// }
+
+let currentViewers = ["jane"]
+
+console.log(currentViewers[5])
